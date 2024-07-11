@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #BB9AB1;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #01616c;
+}
+.main {
+    position: relative;
+    margin: 0%;
+}
+.navbar h1{
+    margin: 0%;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 50px;
+}
+.navbar ul{
+    margin: 0%;
+    margin-left: 35%;
+    display: inline;
+    position: absolute;
+    top: 10px;
+}
+
+.navbar ul li{
+    display: inline;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+}
+
+.opt{
+    margin: 0%;
+    margin-left: 85%;
+    display: inline;
+    position: absolute;
+    top: 15px;
+}
+
+.opt button{
+    border: 4px ;
+    border-radius: 4px;
+    padding: 3px;
+    transition-delay: 3ms;
+}
+
+.opt button:hover{
+    color: rgb(3, 206, 206);
+    background-color: #7b4d7e;
+}
+
+.first{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    
+}
+
+.first #code{
+    font-size: xx-large;
+    font-family: cursive;
+    margin-bottom: 40px;
+}
+
+.first .login input{
+    margin: 5px;
+    border: 0px;
+    height: 25px;
+    width: 250px;
+    transition-delay: 3ms;
+
+}
+
+.first .login input:hover{
+    border-bottom: 1.5px solid;
+}
+
+.first .login .term .chk{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 250px;
+    left: 1px;
+}
+
+.first .login .term p{
+    margin-top: 11px;
+    margin-left: 30px;
+    font-size: small;
+    color: black;
+}
+
+.first .login .term p a{
+    margin-top: 11;
+    font-size: small;
+    color: black;
+}
+
+.first .login .sign p,#up{
+    height: 25px;
+    width: 250px;
+    margin-top: 10px;
+    padding-top: 5px;
+    border-radius: 20px;
+    color: rgb(3, 206, 206);
+    font-size: 15px;
+     text-align: center;
+    background-color: #7b4d7e;
+}
+
+.second{
+    position: absolute;
+    top: 225px;
+    left: 700px;
+}
+
+.second img{
+    height: 260px;
+    border-radius: 15px;   
+    float: left;
+}
+
+.second p{
+    text-align: left;
+    text-emphasis: none;
+}
+
+.main .footer {
+    height: 45px;
+    width: 100%;
+    position: absolute;
+    top: 700px;
+    background-color: black;
+    text-align: center
+}
+
+h4{
+    height: 0px;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    
+}
+
+h4 a {
+    background-color: black ;
+}
+
+hr{
+    border: 2px solid black;
+}
+
+
